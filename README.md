@@ -13,15 +13,42 @@ a. Descriptive Statistics of Monitoring Data
 
 b. Impact Evaluation of SEN intervention
 
+  i) MergeData.do
+  Merge Tanzania's annual census data with: 1) The Shule Bora programme's budget planning
+                                            2) Updated government data:
+						- Dropouts by grade and sex (2023)
+						- Primary Enrollment by age and sex (2024)
+						- Primary Re-enrollment by grade and sex (2024)
+						- Primary Repeaters by grade and sex (2024)
+						- Primary Transfers-In and Out, 2023/2024
+						- Pupils with Disabilities in primary schools (2024)
+						- Dropouts by reasons (2023)
+
+  ii) ConstructBaselineVariables.do
+  Using available variables from i), construct the following variables to be used for the balance table after randomization:
+	- Promotion rates (with upper-bound and lower-bound)
+	- Dropout rates
+	- Repeat rates
+	- Reenrollment rates
+
+  iii) RandomizeSchools.do
+
+  iv) CheckBalance.do
+  Check balance between treatment and control groups and produce balance table
+
+  v) MakeSchoolList.do
+  Produce a list of schools randomly selected
+	
+
+c. Descriptive Statistics of PSSP Process Evaluation
+
+Primary School Safety Program (PSSP)
 
 
 
-c. Descriptive Statistics of Process Evaluation of Primary School Safety Program (PSSP)
 
-
-
-
-d. Comparing distributions of child disability scores from surveys in primary schools in Tanzania and in households across sub-Saharan Africa and Low-and-Middle-Income Countries
+d. Disability Inclusion Data Comparison
+Comparing distributions of child disability scores from surveys in primary schools in Tanzania and in households across sub-Saharan Africa and Low-and-Middle-Income Countries
 
 
 
