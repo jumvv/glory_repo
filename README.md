@@ -10,7 +10,19 @@ This document summarizes the codes used in various development projects I have p
 
 a. Descriptive Statistics of Monitoring Data
 
+Shule Bora Monitoring and Evaluation (M&E) team quarterly collect data from head teachers and pupils on various topics of programm interests, including safety & inclusion, Teachers' Continuous Professional Development (TCPD), and Parent-Teacher Partnership (PTP). The following codes, producing descriptive statistics of Head Teachers(HT)' data on safety & inclusion and TCPD, helped designing questionnaires for the 2.c. (PSSP Process Evaluation).
 
+2.a.i. MergeData.do
+
+Merge Tanzania's annual census data with:
+1) Shule Bora Monitoring Data on safety & inclusion for HT
+2) Shule Bora Monitoring Data on TCPD for HT
+
+2.a.ii. ConstructVariables.do
+
+Construct sub-variables for categorical variables to be tabulated for descriptive statistics.
+
+2.a.iii. TabulateDescriptiveStatistics.do
 
 b. Impact Evaluation of SEN intervention
 
