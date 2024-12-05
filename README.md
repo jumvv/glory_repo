@@ -12,17 +12,17 @@ a. Descriptive Statistics of Monitoring Data
 
 Shule Bora Monitoring and Evaluation (M&E) team quarterly collect data from head teachers and pupils on various topics of programm interests, including safety & inclusion, Teachers' Continuous Professional Development (TCPD), and Parent-Teacher Partnership (PTP). The following codes, producing descriptive statistics of Head Teachers(HT)' data on safety & inclusion and TCPD, helped designing questionnaires for the 2.c. (PSSP Process Evaluation).
 
-2.a.i. MergeData.do
+i) MergeData.do
 
 Merge Tanzania's annual census data with:
 1) Shule Bora Monitoring Data on safety & inclusion for HT
 2) Shule Bora Monitoring Data on TCPD for HT
 
-2.a.ii. ConstructVariables.do
+ii) ConstructVariables.do
 
 Construct sub-variables for categorical variables to be tabulated for descriptive statistics.
 
-2.a.iii. TabulateDescriptiveStatistics.do
+iii) TabulateDescriptiveStatistics.do
 
 b. Impact Evaluation of SEN intervention
 
@@ -60,13 +60,13 @@ c. Descriptive Statistics of PSSP Process Evaluation
 
 Primary School Safety Program (PSSP) is a holistic 8-component program of the Government of Tanzania, which aims at creating a safe learning environment by building protections against various forms of violence and improving students' life skills. This process evaluation assessed the implementation of the PSSP and identify ways to enhance it for future rollout.
 
-i) 2.c.i. ConstructVariables.do
+i) ConstructVariables.do
 
 Construct sub-variables for categorical variables for each of the eight modules to   be tabulated for descriptive statistics.
   
-ii) 2.c.ii. TabulateDescriptiveStatistics.do
+ii) TabulateDescriptiveStatistics.do
 
-iii) 2.c.iii. AggregateTabulateText.do
+iii) AggregateTabulateText.do
 
 Aggregate and label all existing text data for further qualitative analysis.
 
