@@ -62,9 +62,11 @@ Using available variables from i), construct the following variables to be used 
 iii) RandomizeSchools.do
 
 iv) CheckBalance.do
+
 Check balance between treatment and control groups and produce balance table
 
 v) MakeSchoolList.do
+
 Produce a list of schools randomly selected
 	
 
@@ -93,7 +95,7 @@ Import .sav files and convert into .dta for Questionnaires for Children Age 5-17
 
 ii) CleanData.do
 
-Clean (tranlate) and construct variables needed for analyses. Clean another data on population and GDP, drawn from UNESCO.
+Clean (translate) and construct variables needed for analyses. Clean another data on population and GDP, drawn from UNESCO.
 
 iii) AppendData.do
 
@@ -101,7 +103,7 @@ Append data for sub-Saharan African (SSA) countries (16) and LMICs (51).
 
 iv) GenerateFinalSample.do
 
-Adjust sampling weights, clusters and strata for MICS data. Define population segments (Tanzania vs. SSA vs. World (LMICS))
+Adjust sampling weights, clusters and strata for MICS data. Merge the appended MICS data with SB baseline data and population/GDP data. Define population segments (Tanzania vs. SSA vs. World (LMICS))
 
 v) TabulateTable1.do
 
@@ -113,7 +115,7 @@ Tabulate disability scores, Mann-Whitney Probability Index (PI) and Proportional
 
 vii) ProduceFigure1.do
 
-Produce Kernel density plots comparing distributions in disability scores across geographic samples, segmented with ages 6 to 13.
+Produce Kernel density plots, comparing distributions in disability scores across geographic samples, segmented with ages 6 to 13.
 
 e. Capacity Building Training
 
